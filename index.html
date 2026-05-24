@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sukaka Art — Premium custom tattoo & piercing studio in Surat, Gujarat. Custom designs, cover-ups & body art by A.J. Vasoya." />
+  <meta name="theme-color" content="#0a0807" />
+  <meta property="og:title" content="SUKAKA ART — Where skin becomes a canvas" />
+  <meta property="og:description" content="Premium custom tattoo & piercing studio in Surat. Book your appointment today." />
+  <title>SUKAKA ART · Custom Tattoo Studio · Surat</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600&family=Italianno&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230a0807'/%3E%3Ctext x='50%25' y='62%25' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-weight='900' font-size='38' fill='%23a01821'%3ES%3C/text%3E%3C/svg%3E"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========= LOADER ========= -->
+  <div id="loader" class="loader">
+    <div class="loader__inner">
+      <span class="loader__count" data-count="0">00</span>
+      <span class="loader__bar"><i></i></span>
+      <span class="loader__label">SUKAKA · ART</span>
+    </div>
+  </div>
+
+  <!-- ========= CUSTOM CURSOR ========= -->
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"><span class="cursor__text"></span></span>
+  </div>
+
+  <!-- ========= GRAIN OVERLAY ========= -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ========= NAV ========= -->
+  <header id="nav" class="nav">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__brand">
+        <span class="nav__brand-mark">S</span>
+        <span class="nav__brand-text">SUKAKA<em>·</em>ART</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#about" data-num="01">About</a>
+        <a href="#work"  data-num="02">Work</a>
+        <a href="#services" data-num="03">Services</a>
+        <a href="#words" data-num="04">Words</a>
+        <a href="#contact" data-num="05">Studio</a>
+      </nav>
+
+      <div class="nav__right">
+        <a href="https://wa.me/919664171553" class="nav__cta" target="_blank" rel="noopener">
+          <span>Book Now</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <button class="nav__burger" id="navBurger" aria-label="Menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========= HERO ========= -->
+  <section id="hero" class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <span class="hero__bg-text">SUKAKA</span>
+      <span class="hero__bg-text">ART</span>
+    </div>
+
+    <div class="hero__main">
+      <div class="hero__col hero__col--left">
+        <span class="hero__eyebrow">
+          <i></i> Est. 2020 · Surat, India
+        </span>
+        <h1 class="hero__title">
+          <span class="reveal-line"><span>Where skin</span></span>
+          <span class="reveal-line"><span>becomes a</span></span>
+          <span class="reveal-line"><span><em>canvas.</em></span></span>
+        </h1>
+
+        <p class="hero__lede">
+          A custom tattoo &amp; piercing studio crafting bold blackwork,
+          intricate fine&nbsp;line, and fearless cover-ups.
+          By&nbsp;appointment&nbsp;only.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary" data-cursor="View">
+            <span>Book a session</span>
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#work" class="btn btn--ghost" data-cursor="Scroll">
+            See the work
+          </a>
+        </div>
+
+        <ul class="hero__meta">
+          <li><strong>500+</strong><span>pieces inked</span></li>
+          <li><strong>5★</strong><span>rated studio</span></li>
+          <li><strong>100%</strong><span>sterile setup</span></li>
+        </ul>
+      </div>
+
+      <div class="hero__col hero__col--right">
+        <figure class="hero__art" data-tilt>
+          <img src="images/tattoo-1.jpg" alt="Featured tattoo work by Sukaka Art" />
+          <figcaption>
+            <span class="hero__art-num">N°&nbsp;01</span>
+            <span class="hero__art-cap">Recent&nbsp;work</span>
+          </figcaption>
+        </figure>
+
+        <figure class="hero__art hero__art--mini" data-tilt>
+          <img src="images/tattoo-7.jpg" alt="Detail tattoo work" />
+        </figure>
+
+        <span class="hero__sig">a.j.&nbsp;vasoya</span>
+      </div>
+    </div>
+
+    <a href="#about" class="hero__scroll" data-cursor="↓">
+      <span>scroll</span>
+      <i></i>
+    </a>
+  </section>
+
+  <!-- ========= MARQUEE ========= -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>★ Custom Tattoo</span>
+      <span>★ Cover-Up Specialist</span>
+      <span>★ Piercing</span>
+      <span>★ Fine Line</span>
+      <span>★ Blackwork</span>
+      <span>★ Walk-Ins by Appointment</span>
+      <span>★ Surat · India</span>
+      <span>★ Custom Tattoo</span>
+      <span>★ Cover-Up Specialist</span>
+      <span>★ Piercing</span>
+      <span>★ Fine Line</span>
+      <span>★ Blackwork</span>
+      <span>★ Walk-Ins by Appointment</span>
+      <span>★ Surat · India</span>
+    </div>
+  </div>
+
+  <!-- ========= ABOUT ========= -->
+  <section id="about" class="about">
+    <div class="section__head">
+      <span class="section__num">01</span>
+      <span class="section__label">— The Artist</span>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__media">
+        <figure class="about__photo" data-parallax="-30">
+          <img src="images/artist.jpg" alt="A.J. Vasoya — Tattoo Artist at Sukaka Art" />
+          <span class="about__photo-tag">A.J. Vasoya</span>
+        </figure>
+        <figure class="about__photo about__photo--alt" data-parallax="40">
+          <img src="images/tattoo-9.jpg" alt="Studio close-up" />
+        </figure>
+
+        <!-- floating script -->
+        <span class="about__script">Sukaka</span>
+      </div>
+
+      <div class="about__text">
+        <h2 class="display">
+          The hand<br/>
+          behind the<br/>
+          <em>ink.</em>
+        </h2>
+
+        <p class="lede">
+          I'm A.J.&nbsp;Vasoya — founder of Sukaka&nbsp;Art and the artist
+          you'll be sitting with. I've spent the last five years drawing
+          stories straight onto skin, from delicate single-line pieces
+          to dense blackwork sleeves.
+        </p>
+
+        <p>
+          Every booking starts with a conversation. We sketch, refine, and
+          push your idea until it's a piece you'll wear with pride for the
+          rest of your life. The studio in Surat is built around one
+          simple promise — premium ink, sterile equipment, zero compromise.
+        </p>
+
+        <ul class="about__bullets">
+          <li><span>—</span> Custom illustration &amp; design</li>
+          <li><span>—</span> Hospital-grade sterilisation</li>
+          <li><span>—</span> Single-use needles, every session</li>
+          <li><span>—</span> Aftercare guidance for life</li>
+        </ul>
+
+        <a href="#contact" class="link-arrow" data-cursor="Book">
+          Start your project
+          <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= STAT STRIP ========= -->
+  <section class="stats">
+    <div class="stats__grid">
+      <div class="stats__item">
+        <span class="stats__num" data-count="5">0</span><span class="stats__plus">+</span>
+        <span class="stats__lbl">Years inking</span>
+      </div>
+      <div class="stats__sep"></div>
+      <div class="stats__item">
+        <span class="stats__num" data-count="500">0</span><span class="stats__plus">+</span>
+        <span class="stats__lbl">Pieces created</span>
+      </div>
+      <div class="stats__sep"></div>
+      <div class="stats__item">
+        <span class="stats__num" data-count="100">0</span><span class="stats__plus">%</span>
+        <span class="stats__lbl">Sterile setup</span>
+      </div>
+      <div class="stats__sep"></div>
+      <div class="stats__item">
+        <span class="stats__num" data-count="24">0</span><span class="stats__plus">h</span>
+        <span class="stats__lbl">Reply window</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= WORK ========= -->
+  <section id="work" class="work">
+    <div class="section__head">
+      <span class="section__num">02</span>
+      <span class="section__label">— Selected Work</span>
+    </div>
+
+    <div class="work__heading">
+      <h2 class="display">
+        Stories,<br/>
+        <em>etched.</em>
+      </h2>
+      <p class="lede">
+        A walk through recent pieces — fine line, blackwork, cover-ups
+        and signature flash. Click any image for full view.
+      </p>
+    </div>
+
+    <div class="work__grid" id="workGrid">
+      <figure class="work__cell  work__cell--tall" data-cursor="Open">
+        <img src="images/tattoo-1.jpg" alt="Tattoo work — fine line" loading="lazy"/>
+        <figcaption><span>01</span><em>Fine line</em></figcaption>
+      </figure>
+      <figure class="work__cell" data-cursor="Open">
+        <img src="images/tattoo-2.jpg" alt="Tattoo work — blackwork" loading="lazy"/>
+        <figcaption><span>02</span><em>Blackwork</em></figcaption>
+      </figure>
+      <figure class="work__cell" data-cursor="Open">
+        <img src="images/tattoo-3.jpg" alt="Tattoo work — colour" loading="lazy"/>
+        <figcaption><span>03</span><em>Colour</em></figcaption>
+      </figure>
+      <figure class="work__cell  work__cell--wide" data-cursor="Open">
+        <img src="images/tattoo-4.jpg" alt="Tattoo work — script" loading="lazy"/>
+        <figcaption><span>04</span><em>Script</em></figcaption>
+      </figure>
+      <figure class="work__cell" data-cursor="Open">
+        <img src="images/tattoo-5.jpg" alt="Tattoo work — geometric" loading="lazy"/>
+        <figcaption><span>05</span><em>Geometric</em></figcaption>
+      </figure>
+      <figure class="work__cell  work__cell--tall" data-cursor="Open">
+        <img src="images/tattoo-6.jpg" alt="Tattoo work — portrait" loading="lazy"/>
+        <figcaption><span>06</span><em>Portrait</em></figcaption>
+      </figure>
+      <figure class="work__cell" data-cursor="Open">
+        <img src="images/tattoo-7.jpg" alt="Tattoo work — detail" loading="lazy"/>
+        <figcaption><span>07</span><em>Detail</em></figcaption>
+      </figure>
+      <figure class="work__cell" data-cursor="Open">
+        <img src="images/tattoo-8.jpg" alt="Tattoo work — cover-up" loading="lazy"/>
+        <figcaption><span>08</span><em>Cover-up</em></figcaption>
+      </figure>
+      <figure class="work__cell  work__cell--wide" data-cursor="Open">
+        <img src="images/tattoo-9.jpg" alt="Tattoo work — sleeve" loading="lazy"/>
+        <figcaption><span>09</span><em>Sleeve</em></figcaption>
+      </figure>
+      <figure class="work__cell" data-cursor="Open">
+        <img src="images/tattoo-10.jpg" alt="Tattoo work — neo-traditional" loading="lazy"/>
+        <figcaption><span>10</span><em>Neo-trad</em></figcaption>
+      </figure>
+      <figure class="work__cell" data-cursor="Open">
+        <img src="images/tattoo-11.jpg" alt="Tattoo work — symbol" loading="lazy"/>
+        <figcaption><span>11</span><em>Symbol</em></figcaption>
+      </figure>
+      <figure class="work__cell  work__cell--tall" data-cursor="Open">
+        <img src="images/tattoo-12.jpg" alt="Tattoo work — full piece" loading="lazy"/>
+        <figcaption><span>12</span><em>Statement</em></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ========= LIGHTBOX ========= -->
+  <div class="lb" id="lb" aria-hidden="true">
+    <button class="lb__close" aria-label="Close">×</button>
+    <button class="lb__nav lb__nav--prev" aria-label="Previous">‹</button>
+    <div class="lb__stage"><img id="lbImg" src="" alt=""/></div>
+    <button class="lb__nav lb__nav--next" aria-label="Next">›</button>
+    <span class="lb__count"><b>01</b> / <i>12</i></span>
+  </div>
+
+  <!-- ========= SERVICES ========= -->
+  <section id="services" class="services">
+    <div class="section__head">
+      <span class="section__num">03</span>
+      <span class="section__label">— Services &amp; Pricing</span>
+    </div>
+
+    <div class="services__heading">
+      <h2 class="display">
+        Custom craft,<br/>
+        <em>fair pricing.</em>
+      </h2>
+      <p class="lede">
+        Every piece is quoted individually after consultation. Below are
+        starting points — they only go up with size, detail and time.
+      </p>
+    </div>
+
+    <div class="services__row" id="servicesRow">
+
+      <article class="svc">
+        <div class="svc__num">01</div>
+        <div class="svc__icon">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+            <line x1="8" y1="56" x2="46" y2="18"/>
+            <polygon points="46,18 56,8 56,18 46,28" fill="currentColor"/>
+            <line x1="12" y1="52" x2="20" y2="60"/>
+            <circle cx="10" cy="58" r="3"/>
+          </svg>
+        </div>
+        <h3 class="svc__title">Custom<br/>Tattoo</h3>
+        <p class="svc__desc">
+          From rough idea to finished piece. Free consult,
+          full sketch, unlimited revisions until it's <em>yours</em>.
+        </p>
+        <div class="svc__foot">
+          <span>Starts at</span><strong>₹500</strong>
+        </div>
+        <a href="#contact" class="svc__link" data-cursor="Book">Enquire →</a>
+      </article>
+
+      <article class="svc svc--feature">
+        <div class="svc__num">02</div>
+        <div class="svc__badge">Specialist</div>
+        <div class="svc__icon">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+            <path d="M32 6 L54 16 V32 C54 46 44 56 32 60 C20 56 10 46 10 32 V16 Z"/>
+            <path d="M22 32 L29 39 L44 24" stroke-width="2.5"/>
+          </svg>
+        </div>
+        <h3 class="svc__title">Cover-Up<br/>Work</h3>
+        <p class="svc__desc">
+          Old ink reborn. Discreet consult, custom design that hides
+          the past in something you'll love showing off.
+        </p>
+        <div class="svc__foot">
+          <span>Starts at</span><strong>₹2,000</strong>
+        </div>
+        <a href="#contact" class="svc__link" data-cursor="Book">Enquire →</a>
+      </article>
+
+      <article class="svc">
+        <div class="svc__num">03</div>
+        <div class="svc__icon">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="32" cy="32" r="22"/>
+            <circle cx="32" cy="32" r="6" fill="currentColor"/>
+            <line x1="32" y1="2" x2="32" y2="14"/>
+            <line x1="32" y1="50" x2="32" y2="62"/>
+            <line x1="2" y1="32" x2="14" y2="32"/>
+            <line x1="50" y1="32" x2="62" y2="32"/>
+          </svg>
+        </div>
+        <h3 class="svc__title">Body<br/>Piercing</h3>
+        <p class="svc__desc">
+          Medical-grade studs &amp; jewellery. Ear, nose, eyebrow, lip
+          and more — placed with precision by a steady hand.
+        </p>
+        <div class="svc__foot">
+          <span>Starts at</span><strong>₹300</strong>
+        </div>
+        <a href="#contact" class="svc__link" data-cursor="Book">Enquire →</a>
+      </article>
+
+      <article class="svc">
+        <div class="svc__num">04</div>
+        <div class="svc__icon">
+          <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 50 L32 8 L50 50 Z"/>
+            <path d="M22 36 H42"/>
+            <circle cx="32" cy="44" r="2.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="svc__title">Touch-up<br/>&amp; Refresh</h3>
+        <p class="svc__desc">
+          Bring a faded piece back to life — line refinement, colour
+          revival, detail enhancement. Quick session, big difference.
+        </p>
+        <div class="svc__foot">
+          <span>Starts at</span><strong>₹800</strong>
+        </div>
+        <a href="#contact" class="svc__link" data-cursor="Book">Enquire →</a>
+      </article>
+
+    </div>
+
+    <div class="services__hint">
+      <span></span> drag · scroll horizontally <span></span>
+    </div>
+  </section>
+
+  <!-- ========= TESTIMONIALS ========= -->
+  <section id="words" class="words">
+    <div class="section__head">
+      <span class="section__num">04</span>
+      <span class="section__label">— In their words</span>
+    </div>
+
+    <div class="words__stage" id="wordsStage">
+      <div class="words__quote-mark">"</div>
+
+      <div class="words__slide is-active">
+        <p class="words__text">
+          Walked in with a half-formed idea and walked out with the
+          best tattoo I've ever owned. A.J. listens — and the line
+          work is <em>insane</em>.
+        </p>
+        <div class="words__by">
+          <span class="words__stars">★★★★★</span>
+          <strong>Riya M.</strong><span>Surat · Fine line wrist piece</span>
+        </div>
+      </div>
+
+      <div class="words__slide">
+        <p class="words__text">
+          The cover-up he did over my old work was unreal. You can't
+          tell anything was ever there. Studio is spotless, vibe is
+          perfect, prices are honest.
+        </p>
+        <div class="words__by">
+          <span class="words__stars">★★★★★</span>
+          <strong>Karan P.</strong><span>Mumbai · Forearm cover-up</span>
+        </div>
+      </div>
+
+      <div class="words__slide">
+        <p class="words__text">
+          Got my first tattoo here — was nervous, but the team made
+          it feel like hanging out with friends. Came back twice
+          since. Sukaka is the only place I trust now.
+        </p>
+        <div class="words__by">
+          <span class="words__stars">★★★★★</span>
+          <strong>Anjali S.</strong><span>Vadodara · Custom piece</span>
+        </div>
+      </div>
+
+      <div class="words__nav">
+        <button class="words__btn words__btn--prev" aria-label="Previous">‹</button>
+        <span class="words__dots">
+          <i class="is-active"></i><i></i><i></i>
+        </span>
+        <button class="words__btn words__btn--next" aria-label="Next">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========= CONTACT ========= -->
+  <section id="contact" class="contact">
+    <div class="section__head">
+      <span class="section__num">05</span>
+      <span class="section__label">— The Studio</span>
+    </div>
+
+    <div class="contact__heading">
+      <h2 class="display">
+        Let's<br/>
+        <em>make it.</em>
+      </h2>
+    </div>
+
+    <div class="contact__grid">
+
+      <div class="contact__col contact__col--info">
+        <ul class="contact__list">
+          <li>
+            <span class="contact__k">Studio</span>
+            <span class="contact__v">
+              Sukaka Art<br/>
+              Surat, Gujarat, India
+              <a href="https://maps.google.com/maps?ftid=0x3be04f1a89b27cb9:0x6681796b2c609581" target="_blank" rel="noopener" class="link-arrow link-arrow--small">Open map →</a>
+            </span>
+          </li>
+          <li>
+            <span class="contact__k">Phone / WhatsApp</span>
+            <a class="contact__v contact__v--link" href="https://wa.me/919664171553" target="_blank" rel="noopener">
+              +91 96641 71553
+            </a>
+          </li>
+          <li>
+            <span class="contact__k">Email</span>
+            <a class="contact__v contact__v--link" href="mailto:sukakaart@gmail.com">sukakaart@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact__k">Hours</span>
+            <span class="contact__v">
+              Mon — Sat &nbsp;·&nbsp; 11:00 — 21:00<br/>
+              Sunday &nbsp;·&nbsp; By appointment only
+            </span>
+          </li>
+          <li>
+            <span class="contact__k">Follow</span>
+            <span class="contact__socials">
+              <a href="https://www.instagram.com/a.j.vasoya_sukaka_art" target="_blank" rel="noopener" data-cursor="Open">Instagram</a>
+              <a href="https://www.facebook.com/share/1CcJwpR8ns/" target="_blank" rel="noopener" data-cursor="Open">Facebook</a>
+              <a href="https://wa.me/919664171553" target="_blank" rel="noopener" data-cursor="Open">WhatsApp</a>
+            </span>
+          </li>
+        </ul>
+
+        <div class="contact__map">
+          <iframe
+            src="https://www.google.com/maps?q=Sukaka+Art+Surat+Gujarat&output=embed"
+            width="100%" height="100%" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Sukaka Art — Surat"></iframe>
+        </div>
+      </div>
+
+      <div class="contact__col contact__col--form">
+        <form class="form" id="bookingForm" novalidate>
+          <h3 class="form__title">Booking enquiry</h3>
+          <p class="form__sub">Sent straight to WhatsApp · we reply within 24h.</p>
+
+          <div class="form__row">
+            <label class="field">
+              <input type="text" name="name" required placeholder=" " autocomplete="name"/>
+              <span>Your name</span>
+            </label>
+            <label class="field">
+              <input type="tel" name="phone" required placeholder=" " autocomplete="tel"/>
+              <span>Phone</span>
+            </label>
+          </div>
+
+          <label class="field">
+            <input type="email" name="email" placeholder=" " autocomplete="email"/>
+            <span>Email (optional)</span>
+          </label>
+
+          <label class="field">
+            <textarea name="idea" rows="4" required placeholder=" "></textarea>
+            <span>Tattoo idea — style, size, placement, references</span>
+          </label>
+
+          <div class="form__row">
+            <label class="field">
+              <input type="date" name="date" placeholder=" "/>
+              <span>Preferred date</span>
+            </label>
+            <label class="field field--select">
+              <select name="service">
+                <option value="custom">Custom Tattoo</option>
+                <option value="cover">Cover-Up</option>
+                <option value="piercing">Piercing</option>
+                <option value="touchup">Touch-Up</option>
+              </select>
+              <span>Service</span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block" data-cursor="Send">
+            <span>Send enquiry</span>
+            <svg viewBox="0 0 24 24"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </button>
+          <p id="formMsg" class="form__msg" role="status"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========= FOOTER ========= -->
+  <footer class="footer">
+    <div class="footer__cta">
+      <span class="footer__eyebrow">Booking now ·  2026</span>
+      <h2 class="footer__line">
+        <span><em>Got an idea?</em></span>
+        <a href="https://wa.me/919664171553" target="_blank" rel="noopener" class="footer__cta-link" data-cursor="Chat">
+          Let's talk →
+        </a>
+      </h2>
+    </div>
+
+    <div class="footer__big" aria-hidden="true">SUKAKA · ART</div>
+
+    <div class="footer__bottom">
+      <p class="footer__tag">Ink is not just art. It's identity.</p>
+      <ul class="footer__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Studio</a></li>
+      </ul>
+      <p class="footer__copy">© 2026 Sukaka Art · Surat · All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
