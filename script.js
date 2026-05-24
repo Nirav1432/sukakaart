@@ -343,7 +343,7 @@
      ============================================================ */
   const form = $("#bookingForm");
   const formMsg = $("#formMsg");
-  const WHATSAPP_NUMBER = "919664171553";
+  const WHATSAPP_NUMBER = "917567424001";
 
   if (form) {
     form.addEventListener("submit", (e) => {
